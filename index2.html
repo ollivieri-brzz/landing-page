@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Pages Profissionais | Leonardo Olivieri</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0e0a1f;
+            color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a00ff, #00c6ff);
+            padding: 90px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 35px;
+            color: #eef;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 16px 40px;
+            background: linear-gradient(135deg, #ff0080, #ff7a00);
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 15px 30px rgba(255,0,128,0.4);
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: 0 25px 45px rgba(255,122,0,0.6);
+        }
+
+        section {
+            max-width: 1100px;
+            margin: 90px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        section img {
+            width: 100%;
+            border-radius: 18px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            font-size: 2.4rem;
+            margin-bottom: 25px;
+            background: linear-gradient(135deg, #ff0080, #ff7a00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 14px;
+            font-size: 1.1rem;
+            color: #ddd;
+        }
+
+        li::before {
+            content: "✔ ";
+            color: #ff7a00;
+        }
+
+        .about {
+            background: #120f2a;
+            padding: 90px 20px;
+        }
+
+        .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about-content p {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: #ddd;
+        }
+
+        .cta {
+            background: linear-gradient(135deg, #00c6ff, #6a00ff);
+            padding: 90px 20px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            background: none;
+            -webkit-text-fill-color: #fff;
+            font-size: 2.6rem;
+        }
+
+        .cta p {
+            margin: 20px 0 35px;
+            color: #eef;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background: #0b0820;
+            padding: 25px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #bbb;
+        }
+
+        footer span {
+            color: #ff7a00;
+            font-weight: bold;
+        }
+
+        @media (max-width: 900px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+
+            section {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Landing Pages que geram resultados</h1>
+    <p>
+        Criação de landing pages modernas, vibrantes e responsivas
+        para profissionais e pequenos negócios que querem mais clientes.
+    </p>
+    <a class="btn" href="https://wa.me/5511998232263" target="_blank">
+        Falar comigo no WhatsApp
+    </a>
+</header>
+
+<section>
+    <div>
+        <h2>O que eu faço</h2>
+        <ul>
+            <li>Landing pages focadas em conversão</li>
+            <li>Sites rápidos e responsivos</li>
+            <li>Design moderno e profissional</li>
+            <li>Páginas prontas para publicação</li>
+        </ul>
+    </div>
+
+    <img src="images/hero.jpg" alt="Landing Page Profissional">
+</section>
+
+<section class="about">
+    <div class="about-content">
+        <h2>Sobre mim</h2>
+        <p>
+            Me chamo <strong>Leonardo</strong> e sou desenvolvedor web iniciante,
+            focado na criação de sites e landing pages utilizando HTML e CSS.
+            Busco ajudar profissionais e pequenos negócios a terem uma presença
+            online mais profissional e eficiente.
+        </p>
+        <p>
+            Trabalho com código limpo, design responsivo e foco total na experiência
+            do usuário, entregando páginas simples, rápidas e prontas para uso.
+        </p>
+    </div>
+</section>
+
+<div class="cta">
+    <h2>Vamos criar sua landing page?</h2>
+    <p>
+        Entre em contato e solicite um orçamento sem compromisso.
+    </p>
+    <a class="btn" href="https://wa.me/5511998232263" target="_blank">
+        Solicitar orçamento
+    </a>
+</div>
+
+<footer>
+    <p>Desenvolvido por <span>Leonardo Olivieri</span> • HTML & CSS</p>
+</footer>
+
+</body>
+</html>
